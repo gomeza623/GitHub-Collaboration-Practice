@@ -1,0 +1,8 @@
+$ git pull
+$ git checkout -b annie_branch
+$ git branch
+$ vim 'Laura, Annie, Irem, and Anthony'
+$ touch 'Laura, Annie, Irem, and Anthony'
+$ git add 'Laura, Annie, Irem, and Anthony'
+$ git commit -m 'added Annie's interests'
+$ git push --
