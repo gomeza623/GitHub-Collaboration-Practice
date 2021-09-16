@@ -2,7 +2,15 @@ $ git pull
 $ git checkout -b annie_branch
 $ git branch
 $ vim 'Laura, Annie, Irem, and Anthony'
-$ touch 'Laura, Annie, Irem, and Anthony'
+$ touch annie_code.txt
+$ vim annie_code.txt
 $ git add 'Laura, Annie, Irem, and Anthony'
-$ git commit -m 'added Annie's interests'
-$ git push --
+$ git commit -m 'added Annie info'
+$ git push --set-upstream origin annie_branch 
+$ git add 'annie_code.txt'
+$ git commit -m 'code for annies changes'
+$ git push --set-upstream origin annie_branch
+$ vim annie_code.txt
+$ git add annie_code.txt
+$ git commit -m 'new command history added'
+$ git push --set-upstream origin annie_branch
