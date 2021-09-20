@@ -1,0 +1,28 @@
+Anthony's Code
+
+pwd 
+
+cd Documents/UC\ Berkeley/Fall\ 2021/Computational\ Social\ Science/Computational-Social-Science-Training-Program-master/Project\ 1/GitHub-Collaboration-Practice/
+
+git clone https://github.com/gomeza623/GitHub-Collaboration-Practice.git
+
+git checkout -b anthony_branch
+
+git touch anthony_code
+
+vim anthony_code
+
+vim Laura,\ Annie,\ Irem,\ and\ Anthony
+
+git add Laura,\ Annie,\ Irem,\ and\ Anthony
+
+git commit -m "Added my program and keywords for my research interests"
+
+git push -u origin anthony_branch
+
+git add anthony_code
+
+git commit -m "My code for project 1"
+
+git push -u origin anthony_branch 
+
