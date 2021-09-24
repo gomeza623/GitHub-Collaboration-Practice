@@ -1,0 +1,12 @@
+cd Destop/CSS/Github
+git clone https://github.com/gomeza623/GitHub-Collaboration-Practice.git
+cd GitHub-Collaboration-Practice
+git checkout -b laura_branch
+vim "Laura, Annie, Irem, and Anthony"
+vim laura_code.txt
+git add "Laura, Annie, Irem, and Anthony"
+git commit -m "Added my notes"
+git git push -u origin laura_branch
+git add laura_code.txt
+git commit -m "My code for project1"
+git push -u origin laura_branch
