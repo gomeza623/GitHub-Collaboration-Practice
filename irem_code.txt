@@ -1,0 +1,24 @@
+pwd 
+
+cd Desktop/OneDrive/css21/GitHub-Collaboration-Practice
+
+git clone https://github.com/gomeza623/GitHub-Collaboration-Practice.git
+
+git checkout -b irem_branch
+
+vim Laura,\ Annie,\ Irem,\ and\ Anthony
+
+git add Laura,\ Annie,\ Irem,\ and\ Anthony
+
+git commit -m "Added my program and research interests"
+
+touch irem_code.txt
+
+vim irem_code.txt
+
+git add irem_code.txt
+
+git commit -m "İrem's code for Project 1"
+
+git push -u origin irem_branch
+
